@@ -15,12 +15,15 @@ body{
 }
 
 header {
-    background-image: url("Images/Alcalá-header-img.jpg");
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url("Images/Alcalá-header-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 h1{
